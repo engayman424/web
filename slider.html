@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider show</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+#content{
+width: 100%;
+height: 100px;
+
+display: flex;
+padding: 10px 5px;
+background-color: red;
+animation-name: multilook ;
+animation-delay: 2s;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+
+}
+
+#firsttext{
+    margin-right: 25px;
+    margin-left: 40px;
+    line-height:45px;
+    font-weight: bold;
+    font-family:fantasy;
+    font-size: xx-large;
+    letter-spacing: 4px;
+}
+#secondtext{
+    margin-right: 25px;
+    margin-left: 40px;
+    padding-top: 0px;
+    line-height: 75px;
+    font-weight: bold;
+    font-family:monospace;
+    font-size:25px;
+}
+#smile{
+    padding-top:14px;
+}  
+
+@keyframes multilook{
+    0%{
+       
+            background-color:rgb(235, 69, 3);
+
+      
+        }
+25%{
+   
+            background-color:rgb(233, 19, 19);
+       
+
+}
+50%{
+  
+            background-color:rgb(116, 12, 26);
+      
+    }
+    75%{
+  
+  background-color:rgb(84, 161, 82);
+
+}
+}
+  #box{
+     width: 600px;
+     height: 400px;
+     margin: 30px;
+     position: absolute;
+     top: 30%;
+     left:30%;
+  } 
+#box img{
+    width :100%;
+    height:100% ;
+    object-fit: fill ;
+}
+    </style>
+</head>
+<body>
+    <header id="content">
+        <svg id="smile" width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-emoji-wink" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path fill-rule="evenodd" d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683z"/>
+            <path d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5z"/>
+            <path fill-rule="evenodd" d="M8.757 6.063a.5.5 0 0 1 .68.194.934.934 0 0 0 .813.493c.339 0 .645-.19.813-.493a.5.5 0 1 1 .874.486A1.934 1.934 0 0 1 10.25 7.75c-.73 0-1.356-.412-1.687-1.007a.5.5 0 0 1 .194-.68z"/>
+         
+        </svg>
+          <span><p id="firsttext">MY SLIDER SHOW</p>
+            <p id ="secondtext">Enjoy Your Time</p></span>
+       <base href="">   
+    </header>
+    <div id="box">
+     <a href="" id="link" target="_blanc"> <img name ="slide"  src="" alt="" id="img"></a>  
+    </div>
+ <script src="script.js">
+    
+ </script>   
+</body>
+</html>

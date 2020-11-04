@@ -1,9 +1,9 @@
 class Slider{
     constructor(){
        this.images=[];
-       this.images[0]= "img/nat1.jpg";
-       this.images[1]= "img/nat2.jpg";
-       this.images[2]= "img/nat3.jpg";
+       this.images[0]= "nat1.jpg";
+       this.images[1]= "nat2.jpg";
+       this.images[2]= "nat3.jpg";
 
        this.links=[];
        this.links[1]="https://lh3.googleusercontent.com/proxy/oSrIzdiA77-_1Kvr0GDJh4zhrZBQ54NR6fvJp0N64p3T4f2P_tuAaovQuwymphF019dbTIbOcTxHEmkZODWhrKF_a5MFn0aqRg4IaVcnbQ";
